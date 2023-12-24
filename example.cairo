@@ -1,3 +1,11 @@
+fn myFunc () {
+    let is_awesome = true;
+
+    if is_awesome {
+        'Cairo is awesome!'.print();
+    }
+}
+
 fn main() {
     let mut balances: Felt252Dict<u64> = Default::default();
 
