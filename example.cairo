@@ -17,4 +17,7 @@ fn main() {
 
     let maria_balance = balances.get('Maria');
     assert(maria_balance == 200, 'Balance is not 200');
+
+    // calling myFunc
+    myFunc();
 }
